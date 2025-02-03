@@ -1,0 +1,61 @@
+/* Register Form Styles */
+.register-container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .register-container h2 {
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .register-container input,
+  .register-container select {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  .register-container input:focus,
+  .register-container select:focus {
+    border-color: #007bff;
+  }
+  
+  .register-container button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .register-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Mobile Responsive Styles */
+  @media (max-width: 480px) {
+    .register-container {
+      padding: 15px;
+      width: 90%;
+    }
+  
+    .register-container input,
+    .register-container select {
+      width: 100%;
+    }
+  }
+  

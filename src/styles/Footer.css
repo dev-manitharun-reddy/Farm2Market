@@ -1,0 +1,63 @@
+footer {
+    background-color: #333;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .waves {
+    position: relative;
+    height: 100px;
+    overflow: hidden;
+  }
+  
+  .wave {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url('https://ik.imagekit.io/manitharunreddy/wave.png') repeat-x;
+    animation: wave 10s linear infinite;
+  }
+  
+  @keyframes wave {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  footer h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  footer ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  footer ul li {
+    display: inline-block;
+  }
+  
+  footer ul li a {
+    color: white;
+    font-size: 24px;
+  }
+  
+  footer p {
+    font-size: 14px;
+    margin-top: 20px;
+  }
+  
+  footer p a {
+    color: white;
+    text-decoration: none;
+  }
